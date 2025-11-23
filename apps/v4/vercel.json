@@ -1,4 +1,3 @@
 {
-  "framework": "nextjs",
-  "buildCommand": "pnpm --filter=shadcn build && next build"
+  "installCommand": "pnpm install --shamefully-hoist"
 }
