@@ -1,4 +1,4 @@
 {
-  "framework": "nextjs",
-  "buildCommand": "pnpm --filter=shadcn build && next build"
+  "buildCommand": "cd ../.. && pnpm install && cd apps/v4 && pnpm build",
+  "installCommand": "pnpm install"
 }
