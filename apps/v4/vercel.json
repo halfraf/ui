@@ -1,4 +1,3 @@
 {
-  "buildCommand": "cd ../.. && pnpm install && cd apps/v4 && pnpm build",
-  "installCommand": "pnpm install"
+  "installCommand": "pnpm install --shamefully-hoist"
 }
